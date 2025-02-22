@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário PHP - Exercício 1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="title-container">
+            <h1 class="title">Formulário PHP</h1>
+        </div>
+        <div class="input-container">
+            <form action="processa.php" method="post">
+                <label>Nome:</label>
+                <input type="text" name="nome" required>
+
+                <label>Telefone:</label>
+                <input type="number" name="telefone" required>
+
+                <label>E-mail:</label>
+                <input type="email" name="email" required>
+
+                <label>Mensagem:</label>
+                <textarea name="mensagem" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+
+            <!-- Link para enviar dados via GET -->
+            <a href="processa.php?nome=Teste&telefone=123456789&email=test@email.com&mensagem=Exemplo">
+                Enviar via GET
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>

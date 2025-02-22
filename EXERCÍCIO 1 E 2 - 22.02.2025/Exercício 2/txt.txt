@@ -1,0 +1,3 @@
+Acredito que, para controle de versionamento somente, seja válida a minha aplicação anterior...
+Portanto, no exercício 2, temos a mesma estrutura em questão de HTML e CSS, (sem php) porém com algumas mudanças estéticas somente.
+*o método de envio GET foi retirado por questões estéticas
