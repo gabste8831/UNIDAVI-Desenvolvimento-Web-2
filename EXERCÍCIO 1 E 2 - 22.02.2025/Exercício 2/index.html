@@ -17,7 +17,7 @@
             <h1 class="title">Formulário PHP</h1>
         </div>
         <div class="input-container">
-            <form action="processa.php" method="post">
+            <form action="processa.php" method="GET">
                 <label>Nome:</label>
                 <input type="text" name="nome" required>
 
@@ -32,11 +32,6 @@
 
                 <button type="submit">Enviar</button>
             </form>
-
-            <!-- Link para enviar dados via GET -->
-            <a href="processa.php?nome=Teste&telefone=123456789&email=test@email.com&mensagem=Exemplo">
-                Enviar via GET
-            </a>
         </div>
     </div>
 </body>

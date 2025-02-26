@@ -11,11 +11,11 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #3d3d3d;
+    background-color: #a17373;
 }
 
 .container {
-    background: rgb(39, 39, 39);
+    background: rgb(68, 51, 51);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -25,14 +25,14 @@ body {
 }
 
 .title-container {
-    border-bottom: 3px solid #383838;
+    border-bottom: 3px solid #804a4a;
     padding-bottom: 10px;
     padding-top: 10px;
 }
 
 .title {
     font-size: 24px;
-    color: #9e9e9e;
+    color: #ffffff;
     margin-bottom: 15px;
 }
 
@@ -49,7 +49,7 @@ label {
     font-weight: bold;
     text-align: left;
     margin-top: 20px;
-    color: #9e9e9e;
+    color: #ffffff;
 }
 
 input,
@@ -59,7 +59,7 @@ textarea {
     padding: 8px;
     border: none;
     font-size: 16px;
-    background-color: #3d3d3d;
+    background-color: #804a4a;
     color: white;
     outline: none;
     box-shadow: none;
@@ -74,8 +74,8 @@ textarea {
 button {
     width: 100%;
     padding: 10px;
-    background-color: #04ff00;
-    color: rgb(38, 38, 38);
+    background-color: #edbebe;
+    color: #804a4a;
     font-weight: bold;
     border: none;
     border-radius: 5px;
@@ -85,14 +85,6 @@ button {
 }
 
 button:hover {
-    background-color: #03be00;
-}
-
-/* Link de envio via GET */
-a {
-    display: inline-block;
-    margin-top: 15px;
-    color: #04ff00;
-    text-decoration: none;
-    font-size: 14px;
+    background-color: #b87c7c;
+    color: #ffffff;
 }
